@@ -1,5 +1,5 @@
-import About1 from "../assets/images/About1.png";
-import About2 from "../assets/images/About2.png";
+import about1 from "../assets/images/about1.png";
+import about2 from "../assets/images/about2.png";
 import giftbox from "../assets/images/giftbox.png";
 import sheild from "../assets/images/sheild.png";
 import wave from "../assets/images/wave.png";
@@ -16,7 +16,7 @@ const AboutUs = () => {
         <div className="flex justify-center lg:w-1/2">
           <img
             id="img"
-            src={About1}
+            src={about1}
             alt="Create Startup Illustration"
             className="w-full max-w-md"
           />
@@ -79,7 +79,7 @@ const AboutUs = () => {
         </div>
         <div className="flex justify-center lg:w-1/2">
           <img
-            src={About2}
+            src={about2}
             id="img"
             alt="Startup Growth Illustration"
             className="w-full max-w-md"
