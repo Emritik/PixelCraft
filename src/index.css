@@ -1,0 +1,49 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#banner {
+  height: 50rem;
+}
+
+@media screen and (max-width: 600px) {
+  #banner {
+    height: 65rem;
+  }
+  #heading {
+    font-family:  "Bentham", serif;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  #banner {
+    height: 63rem;
+  }
+  #img {
+    max-width: 44rem;
+  }
+  #heading {
+    font-family:  "Bentham", serif;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #banner {
+    height: 48rem;
+  }
+  #img {
+    max-width: 35rem;
+  }
+  #heading {
+    font-family:  "Bentham", serif;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+#heading {
+  font-family:  "Bentham", serif;
+}

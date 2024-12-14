@@ -1,0 +1,72 @@
+import React from "react";
+import Blackbg from "../assets/images/Blackbg.png";
+import giftbox from "../assets/images/giftbox.png";
+import cross from "../assets/images/cross.png";
+import wallet from "../assets/images/wallet.png";
+
+const Footer = () => {
+  return (
+    <footer className="bg-white relative sm:mt-10 -inset-0 -mt-24">
+      {" "}
+      {/* Reduced top margin for small screens */}
+      {/* Logo and Message */}
+      <div className="text-center">
+        {/* Replace src with the actual path to your logo */}
+        <img
+          src={Blackbg}
+          alt="Company Logo"
+          className="mx-auto h-28 md:w-72 mb-4"
+        />
+        <p className="text-gray-800 text-xl font-medium">
+          We help startups across India to reach their heights.
+        </p>
+
+        {/* Social Media Icons */}
+        <div className="flex justify-center space-x-6 mt-4 text-black">
+          {/* Example Social Icons */}
+          <a href="#" aria-label="Discord" className="hover:text-gray-700">
+            <i className="fab fa-discord text-2xl"></i>
+          </a>
+
+          <a href="https://www.instagram.com/_pixel_craft__/">
+            <i className="fab fa-instagram text-2xl"></i>
+          </a>
+
+          <a href="#" aria-label="YouTube" className="hover:text-gray-700">
+            <i className="fab fa-youtube text-2xl"></i>
+          </a>
+        </div>
+      </div>
+      {/* Footer Links */}
+      <div className="text-center mt-10 text-gray-400 text-sm">
+        <p className="mb-2">© 2024 PixelCraft. All rights reserved.</p>
+        <div className="flex justify-center space-x-4">
+          <a href="#" className="hover:text-gray-600">
+            Privacy policy
+          </a>
+          <a href="#" className="hover:text-gray-600">
+            Terms of use
+          </a>
+        </div>
+      </div>
+      {/* Decorative Dots */}
+      <div className="absolute top-0 right-0 sm:top-20 sm:left-12 md:left-40 md:bottom-10">
+        <div className="w-16 h-16 rounded-full">
+          <img src={wallet} alt="" />
+        </div>
+      </div>
+      <div className="absolute sm:bottom-60 bottom-48 sm:right-20 md:right-52 md:top-16">
+        <div className="w-16 h-16 rounded-full">
+          <img src={cross} alt="" />
+        </div>
+      </div>
+      <div className="absolute sm:bottom-20 sm:right-12 md:right-20 md:bottom-0 bottom-24 right-12">
+        <div className="w-12 h-12 rounded-full">
+          <img src={giftbox} alt="" />
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
