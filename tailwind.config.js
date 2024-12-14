@@ -2,6 +2,7 @@
 export const content = ["./src/**/*.{js,jsx}"];
 export const darkMode = 'class';
 export const theme = {
-  extend: {},
+  extend: {
+  },
 };
 export const plugins = [];

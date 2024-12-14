@@ -6,9 +6,9 @@ import wave from "../assets/images/wave.png";
 
 const AboutUs = () => {
   return (
-    <div className="bg-white py-16 px-8" id="about">
-      <h1 className="md:text-8xl sm:text-7xl text-6xl font-extrabold  text-center mb-16" id="heading">
-        About The <br /> PixelCraft
+    <div className="bg-white dark:bg-gradient-to-b dark:from-pink-400 dark:to-blue-900 py-16 px-8" id="about">
+      <h1 className="md:text-8xl sm:text-7xl text-6xl font-extrabold  text-center mb-16 dark:text-white" id="heading">
+        About The <br /> Pixel Craft
       </h1>
 
       {/* Section 1 */}
@@ -22,24 +22,24 @@ const AboutUs = () => {
           />
         </div>
         <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-purple-700 text-xl font-bold uppercase">
+          <h1 className="text-purple-700 dark:text-yellow-400 text-xl font-bold uppercase">
             Create and Invest
           </h1>
-          <h1 className="text-black sm:text-5xl sm:font-extrabold text-5xl font-bold leading-tight mt-4">
-            Create your own <span className="text-pink-600">STARTUP</span>
+          <h1 className="text-black dark:text-white  sm:text-5xl sm:font-extrabold text-5xl font-bold leading-tight mt-4">
+            Create your own <span className="text-pink-600 dark:text-indigo-800 ">STARTUP</span>
           </h1>
-          <p className="text-gray-500 text-lg mt-4">
+          <p className="text-gray-500 dark:text-gray-300 text-lg mt-4">
             We are 100% committed to taking your startup from zero to step
             hundred.
           </p>
           <div className="flex flex-col justify-around mt-6">
             <div className="text-center md:text-left">
-              <h3 className="text-black text-6xl font-bold">1.5+</h3>
-              <p className="text-gray-500">Experience More Than 1.5 years.</p>
+              <h3 className="text-black dark:text-white text-6xl font-bold">1.5+</h3>
+              <p className="text-gray-500 dark:text-gray-300">Experience More Than 1.5 years.</p>
             </div>
             <div className="text-center md:text-left">
-              <h3 className="text-black text-6xl font-bold">2.5x</h3>
-              <p className="text-gray-500">
+              <h3 className="text-black dark:text-white text-6xl font-bold">2.5x</h3>
+              <p className="text-gray-500 dark:text-gray-300">
                 We claim that we are 2.5 times faster, more effective and
                 perform better than others.
               </p>
@@ -51,29 +51,29 @@ const AboutUs = () => {
       {/* Section 2 */}
       <div className="flex flex-col lg:flex-row items-center justify-between gap-10 mt-20">
         <div className="md:text-left text-center lg:w-1/2 lg:pl-10">
-          <h1 className="text-purple-700 text-xl font-bold uppercase">
+          <h1 className="text-purple-700 dark:text-yellow-400 text-xl font-bold uppercase">
             Sync and Track
           </h1>
-          <h2 className="text-black sm:text-4xl sm:font-extrabold md:text-6xl text-4xl font-bold leading-tight mt-4">
-            Grow Your <span className="text-pink-600">STARTUP</span> To The Next
+          <h2 className="text-black dark:text-white sm:text-4xl sm:font-extrabold md:text-6xl text-4xl font-bold leading-tight mt-4">
+            Grow Your <span className="text-pink-600 dark:text-pink-500">STARTUP</span> To The Next
             Level
           </h2>
-          <p className="text-gray-500 text-lg mt-4">
+          <p className="text-gray-500 dark:text-gray-300 text-lg mt-4">
             We help all startups in execution, legally as well as research and
             development.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-6">
             <div className="flex items-center gap-4">
-              <div className="bg-purple-100 rounded-2xl text-purple-600 w-16 h-16 flex items-center justify-center">
+              <div className="dark:bg-transparent rounded-2xl text-purple-600 w-16 h-16 flex items-center justify-center">
                 <img src={sheild} alt="Shield Icon" />
               </div>
-              <span>And we do all this with 100% accuracy.</span>
+              <span className="dark:text-gray-300">And we do all this with 100% accuracy.</span>
             </div>
             <div className="flex items-center gap-4">
-              <div className="bg-purple-100 text-purple-600 rounded-2xl w-16 h-16 flex items-center justify-center">
+              <div className=" dark:bg-transparent text-purple-600 rounded-2xl w-16 h-16 flex items-center justify-center">
                 <img src={giftbox} alt="Giftbox Icon" />
               </div>
-              <span>And we do all this within 1 month.</span>
+              <span className="dark:text-gray-300">And we do all this within 1 month.</span>
             </div>
           </div>
         </div>

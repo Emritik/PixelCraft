@@ -7,7 +7,7 @@ import wave from "../assets/images/wave.png";
 
 const Banner = () => {
   return (
-    <div className="relative bg-gradient-to-b from-white to-gray-50 py-44 px-4 sm:py-44 sm:px-8 md:py-56 md:px-16 lg:px-24" id="banner">
+    <div className="relative bg-gradient-to-b from-white to-gray-50 dark:bg-gradient-to-b dark:from-pink-400 dark:to-blue-900 py-44 px-4 sm:py-44 sm:px-8 md:py-56 md:px-16 lg:px-24" id="banner">
       {/* Floating Decorative Images */}
       <div className="absolute top-32 left-24 sm:top-64 sm:left-32 md:top-28 md:left-48 lg:top-32 lg:left-96">
         <div className="w-12 h-12 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:w-12 lg:h-12">
@@ -35,13 +35,13 @@ const Banner = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start">
         {/* Left Side - Text and Button */}
         <div className="md:w-1/2 text-center md:text-left mb-12 md:mb-0 px-4">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-serif text-black mb-4 leading-snug">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-serif text-black dark:text-white mb-4 leading-snug">
             <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium md:font-extrabold">
               Supercharge
             </span>{" "}
-            your <span className="text-purple-500">STARTUP</span> Adventure
+            your <span className="dark:text-yellow-400 text-purple-600">STARTUP</span> Adventure
           </h1>
-          <p className="text-lg sm:text-xl md:text-xl lg:text-2xl font-light md:font-medium text-gray-800 mb-6">
+          <p className="text-lg dark:text-gray-300 sm:text-xl md:text-xl lg:text-2xl font-light md:font-medium text-gray-800 mb-6">
             Let's start and grow your startup to{" "}
             <br className="hidden sm:block" />
             the next level.
@@ -75,7 +75,7 @@ const Banner = () => {
       <br />
 
       <div className="flex justify-center items-center mt-8">
-        <div className="w-12 h-12 sm:w-12 sm:h-12 md:w-12 md:h-12 lg:w-12 lg:h-12">
+        <div className="w-16 h-12 sm:w-20 sm:h-12 md:w-20 md:h-12 lg:w-20 lg:h-12">
           <img src={wave} alt="Wave" />
         </div>
       </div>

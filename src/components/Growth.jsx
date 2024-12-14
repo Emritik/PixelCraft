@@ -6,10 +6,10 @@ import rocket from '../assets/images/rocket.png'
 const Growth = () => {
   return (
     <div>
-      <div className="p-8 mt-0">
+      <div className="p-8 mt-0 dark:bg-gradient-to-b dark:from-pink-400 dark:to-blue-900">
         <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-0 md:grid-cols-3 gap-4">
           <div className="relative">
-            <img
+            <img 
               src={rocket} 
               alt="decorative top"
               className="absolute -top-16 left-8 md:-top-16 md:left-12 transform -translate-x-1/2 w-14 h-14"

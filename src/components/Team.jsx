@@ -6,14 +6,14 @@ import jackie from "../assets/images/jackie.png";
 
 const Team = () => {
   return (
-    <div className="bg-white py-16 px-8" id="team">
+    <div className="bg-white dark:bg-gradient-to-b dark:from-pink-400 dark:to-blue-900 py-16 px-8" id="team">
       <h1
-        className="md:text-8xl sm:text-7xl text-6xl font-extrabold  text-center mb-16"
+        className="md:text-8xl sm:text-7xl text-6xl font-extrabold  text-center mb-16 dark:text-gray-200"
         id="heading"
       >
-        Meet the <span className="text-purple-600">Artists</span>
+        Meet the <span className="text-purple-600 dark:text-yellow-400">Artists</span>
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-10 place-items-center">
         <div className="relative group w-full max-w-xs bg-white shadow-lg rounded-3xl overflow-hidden transition-all duration-300 hover:bg-gradient-to-r from-purple-500 to-pink-500">
           {/* Image Container */}
           <div className="overflow-hidden">

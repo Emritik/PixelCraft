@@ -11,11 +11,12 @@ import HeroSection from "./components/HeroSection";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import WhatsAppButton from './components/WhatsAppButton'
+import ThemeToggleButton from "./components/ThemeToggleButton";
 
 function App() {
   const slideInFromLeft = {
     hidden: { opacity: 0, x: -100 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.6 } },
+    visible: { opacity: 1, x: 0, transition: { duration: 1 } },
   };
   
   return (
@@ -63,6 +64,7 @@ function App() {
       <motion.div initial="hidden" animate="visible" variants={slideInFromLeft}>
         <Footer />
         <WhatsAppButton />
+        <ThemeToggleButton />
       </motion.div>
       
     </div>

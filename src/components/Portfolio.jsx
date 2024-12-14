@@ -6,9 +6,9 @@ import feedope from "../assets/images/feedope.jpg";
 
 const Portfolio = () => {
   return (
-    <div className="bg-white py-10">
+    <div className="bg-white dark:bg-gradient-to-b dark:to-pink-400 dark:from-blue-900 py-10">
       <h1
-        className="md:text-8xl sm:text-7xl text-6xl font-extrabold text-center mb-16"
+        className="md:text-8xl sm:text-7xl text-6xl font-extrabold text-center mb-16 dark:text-white"
         id="heading"
       >
         Our Portfolio

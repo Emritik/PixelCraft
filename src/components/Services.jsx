@@ -54,8 +54,8 @@ const Services = () => {
   ];
 
   return (
-    <div className="bg-gray-50 py-12" id="services">
-      <h1 className="md:text-8xl sm:text-7xl text-6xl font-extrabold  text-center mb-16" id="heading">
+    <div className="bg-gray-50 dark:bg-gradient-to-b dark:to-pink-400 dark:from-blue-900 py-12" id="services">
+      <h1 className="md:text-8xl dark:text-gray-300 sm:text-7xl text-6xl font-extrabold  text-center mb-16" id="heading">
         Our Services
       </h1>
       <div className="flex flex-wrap justify-center gap-8">

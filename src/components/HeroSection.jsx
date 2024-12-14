@@ -6,13 +6,13 @@ import wave from '../assets/images/wave.png'
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-white h-screen flex flex-col justify-center items-center text-center">
+    <section className="relative dark:bg-gradient-to-b dark:from-pink-400 dark:to-blue-900 bg-white h-screen flex flex-col justify-center items-center text-center">
       
       <div className="absolute inset-0 grid grid-cols-3 gap-4 opacity-10">
         {[...Array(9)].map((_, i) => (
           <div
             key={i}
-            className="bg-gradient-to-tr from-purple-300 to-blue-200 rounded-lg shadow-lg"
+            className="bg-gradient-to-tr from-purple-300 to-blue-200 darK:bg-gradient-to-tr dark:from-purple-900 dark:to-red-600 rounded-lg shadow-lg"
           />
         ))}
       </div>
@@ -20,8 +20,8 @@ const HeroSection = () => {
       {/* Main content */}
       <div className="relative z-10">
         {/* Heading */}
-        <h1 className=" text-6xl font-bold md:font-extrabold text-gray-900 mb-6">
-          Let’s <span className="text-purple-600">start</span> <br /> startup
+        <h1 className=" text-6xl font-bold md:font-extrabold text-gray-900 dark:text-white mb-6">
+          Let’s <span className="text-purple-600 dark:text-indigo-800">Start</span> <br /> startup
         </h1>
 
         {/* Button */}

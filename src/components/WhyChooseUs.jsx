@@ -8,8 +8,8 @@ import wave from '../assets/images/wave.png'
 
 const WhyChooseUs = () => {
   return (
-    <div className="relative bg-white py-16" id="whyus">
-      <h1 className="md:text-8xl sm:text-7xl text-6xl font-extrabold text-center mb-16" id="heading">
+    <div className="relative bg-white dark:bg-gradient-to-b dark:to-pink-400 dark:from-blue-900 py-16" id="whyus">
+      <h1 className="md:text-8xl dark:text-white sm:text-7xl text-6xl font-extrabold text-center mb-16" id="heading">
         Why choose Us
       </h1>
       {/* <h2 className="text-5xl font-extrabold text-center mb-16" id="heading">Why Choose Us</h2> */}
@@ -99,7 +99,7 @@ const WhyChooseUs = () => {
         />
       </div>
       <div className="flex justify-center items-center sm:bottom-0">
-        <div className="w-12 h-12 sm:w-12 sm:h-12 md:w-12 md:h-12 lg:w-12 lg:h-12">
+        <div className="w-16 h-12 sm:w-20 sm:h-12 md:w-20 md:h-12 lg:w-20 lg:h-12">
           <img src={wave} alt="Wave" />
         </div>
       </div>
