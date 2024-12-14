@@ -24,8 +24,8 @@ const Footer = () => {
         {/* Social Media Icons */}
         <div className="flex justify-center space-x-6 mt-4 text-black">
           {/* Example Social Icons */}
-          <a href="#" aria-label="Discord" className="hover:text-gray-700">
-            <i className="fab fa-discord text-2xl"></i>
+          <a href="mailto:pixelcraftinst@gmail.com" aria-label="email" className="hover:text-gray-700">
+            <i className="fa fa-envelope text-2xl" aria-hidden="true"></i>
           </a>
 
           <a href="https://www.instagram.com/_pixel_craft__/">
