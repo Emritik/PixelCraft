@@ -30,7 +30,7 @@ const Team = () => {
               Ritik Sharma
             </h3>
             <p className="text-gray-500 group-hover:text-gray-200">
-            Founder & CEO
+            Blockchain Developer
             </p>
           </div>
 
@@ -70,7 +70,7 @@ const Team = () => {
               Saksham Rai
             </h3>
             <p className="text-gray-500 group-hover:text-gray-200">
-            Co-founder
+            Django Developer
             </p>
           </div>
 
@@ -163,14 +163,6 @@ const Team = () => {
               className="text-white text-2xl"
             >
               <FaLinkedin />
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white text-2xl"
-            >
-              <FaInstagram />
             </a>
           </div>
         </div>
